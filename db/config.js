@@ -9,5 +9,4 @@ db.once('open', () => {
   console.log('In DB');
 });
 
-
 module.exports = db;

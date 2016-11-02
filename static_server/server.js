@@ -12,5 +12,5 @@ app.get('*', function (request, response){
 let PORT = process.env.PORT || 3000;
 
 app.listen(PORT, function () {
-  console.log(`Example app listening on port ${PORT}!`);
+  console.log(`Static file server listening on port ${PORT}!`);
 });
