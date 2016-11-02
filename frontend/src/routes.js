@@ -12,7 +12,7 @@ export default (
     <IndexRoute component={Splash} />
     <Route path='/splash' component={Splash} />
     <Route path='/contact' component={Contact} />
-    <Route path='/reviews/:id' component={Reviews} />
+    <Route path='/reviews' component={Reviews} />
     <Route path='/videos' component={Videos} />
   </Route>
 );
