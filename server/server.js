@@ -3,6 +3,8 @@ const path = require('path');
 
 const app = express();
 
+app.use(express.static(__dirname + '/static'));
+
 app.get('/', function (req, res) {
   res.sendFile(path.resolve(__dirname, './index.html'));
   console.log('Connecting...');

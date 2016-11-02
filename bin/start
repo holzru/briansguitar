@@ -1,0 +1,9 @@
+#!/bin/bash
+if [ "$1" == '--debug' ]; then
+  DEBUG=express:* node server/server.js & bg
+else
+  node server/server.js & bg
+fi
+
+cd frontend
+npm run watch

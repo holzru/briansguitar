@@ -1,0 +1,16 @@
+{
+  "name": "Brian's_Guitar_Project",
+  "version": "1.0.0",
+  "main": "server.js",
+  "description": "Backend for Brian's Guitar website",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/BriansGuitar/briansguitar.git"
+  },
+  "author": "Novel Approaches",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^2.0.0",
+    "express": "^4.14.0"
+  }
+}

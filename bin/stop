@@ -1,0 +1,5 @@
+#!/bin/bash
+echo KILL WEBPACK
+ps ax | grep frontend/node_modules/.bin/webpack\ --watch | awk NR==1'{print $1}' | xargs kill -2
+echo KILL SERVER
+lsof -i :3000 | grep node | grep LISTEN | awk '{print $2}' | xargs kill -2
