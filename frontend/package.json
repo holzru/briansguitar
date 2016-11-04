@@ -1,0 +1,33 @@
+{
+  "name": "guitar-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for Brian's Guitar website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch"
+  },
+  "keywords": [],
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/BriansGuitar/briansguitar.git"
+  },
+  "author": "Novel Approaches",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.2.1",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-react": "^6.1.18",
+    "webpack": "^1.12.9"
+  },
+  "dependencies": {
+    "babel-preset-stage-1": "^6.1.18",
+    "lodash": "^3.10.1",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3",
+    "react-redux": "^4.0.0",
+    "react-router": "^2.0.1",
+    "redux": "^3.0.4"
+  }
+}

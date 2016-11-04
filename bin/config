@@ -1,0 +1,8 @@
+#!/bin/bash
+cd frontend
+npm install
+cd ../static_server
+npm install
+cd ../db
+npm install
+cd ..
